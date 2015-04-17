@@ -1,0 +1,94 @@
+/*------------------------- Fonts ---------------------------*/
+@font-face {
+	font-family: 'bevanregular';
+	src: url('../fonts/bevan-webfont.eot');
+	src: url('../fonts/bevan-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/bevan-webfont.woff') format('woff'),  url('../fonts/bevan-webfont.ttf') format('truetype'),  url('../fonts/bevan-webfont.svg#bevanregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*------------------------- Layout styles ------------------------*/
+body {
+	margin:0;
+	background:#7D8A2E;
+	font-family:Arial, Helvetica, sans-serif;
+}
+a {
+	outline:none;
+}
+a img {
+	border:0;
+	display:block;
+}
+/*------------------------- Header -------------------------*/
+.header {
+	background:none #C9D787; /*younggreen*/
+	margin-top: 3%;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 3%;
+	padding-bottom: 6%;
+}
+.header a#logo {
+	display:block;
+	float:left;
+	font-family:bevanregular;
+	height:42px;
+	width:320px;
+}
+.header ul {
+	float:right;
+	list-style:none;
+	margin:0;
+	overflow:hidden;
+	padding:9px 33px 0 0;
+}
+.header ul li:first-child {
+	margin:0;
+}
+.header ul li {
+	float:left;
+	margin:0 0 0 36px;
+}
+.header ul li a {
+	color:#7D8A2E;
+	font-family:bevanregular;
+	font-size:1em;
+	font-weight:400;
+	letter-spacing:.025em;
+	line-height:30px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+.header ul li.selected a, .header ul li a:hover {
+	color:#fbfbf4;
+}
+
+/*------------------------- Home ---------------------------*/
+.body {
+	background: #fbfbf4;
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+	min-height: 1188px;
+	padding: 12px 10px 10px;
+	overflow: hidden;
+}
+.body .sidebar div:first-child {
+	min-height:0!important;
+}
+.popular, .category, .profile, .deck{
+	background: #FFC0A9;
+}
+.deck {
+	display: block;
+	background: #FFC0A9;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 4%;
+	padding-right: 4%;
+	margin-top: 1%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
