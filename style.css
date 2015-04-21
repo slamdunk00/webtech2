@@ -1215,3 +1215,9 @@ a img {
 	outline: none;
 	color: #FF8598;
 }
+#change_password {
+	background: #FFC0A9;
+	color: white;
+	text-align: center;
+	display: block;
+}
