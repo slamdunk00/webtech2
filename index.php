@@ -84,46 +84,65 @@
 						<span>Category</span>
 						<ul>
 							<li>
-								<a href="language.php">Language</a> <span>English, Chinese, Japanese, ...</span>
+								<a href="">Language</a> <span>English, Chinese, Japanese, ...</span>
 							</li>
 							<li>
-								<a href="country.php">Country</a> <span>Capital, Travel, Building, ...</span>
+								<a href="">Country</a> <span>Capital, Travel, Building, ...</span>
 							</li>
 							<li>
-								<a href="animal.php">Animal</a> <span>Pet, Wild, Marine, ...</span>
+								<a href="">Animal</a> <span>Pet, Wild, Marine, ...</span>
 							</li>
 							<li>
-								<a href="car.php">Car</a> <span>Car, Train, Plane, Ship, ...</span>
+								<a href="">Car</a> <span>Car, Train, Plane, Ship, ...</span>
 							</li>
 							<li>
-								<a href="holiday.php">Holiday</a> <span>Festival, Season, Celebration, ...</span>
+								<a href="">Holiday</a> <span>Festival, Season, Celebration, ...</span>
 							</li>
 							<li>
-								<a href="media.php">Media</a> <span>Movie, Cartoon, Music, ...</span>
+								<a href="">Media</a> <span>Movie, Cartoon, Music, ...</span>
 							</li>
 							<li>
-								<a href="food.php">Food</a> <span>Food, Sweet, Drink, ...</span>
+								<a href="">Food</a> <span>Food, Sweet, Drink, ...</span>
 							</li>
 							<li>
-								<a href="celebrities.php">Celebrities</a> <span>Actor, Singer, Athlete, ...</span>
+								<a href="">Celebrities</a> <span>Actor, Singer, Athlete, ...</span>
 							</li>
 							<li>
-								<a href="sport.php">Sport</a> <span>...</span>
+								<a href="">Sport</a> <span>...</span>
 							</li>
 							<li>
-								<a href="other.php">Other</a> <span>...</span>
+								<a href="">Other</a> <span>...</span>
 							</li>
 						</ul>
 					</div>
 					<div>
 						<span>Profile</span>
 						<ul>
-							<li><p><a href="chang_password.php">Change Password</a></p></li>
-							<li><p><a href="add_deck.php">Add Deck</a></p></li>
-							<li><p><a href="my_deck.php">All My Deck</a></p></li>
-							<li><p><a href="favourite.php">Favourite Deck</a></p></li>
-							<li><p><a href="achievement.php">Achievements</a></p></li>
-							<li><p><a href="logout.php">Logout</a></p></li>
+							<li>
+								<p>
+									<a href="#">Add Deck</a>
+								</p>
+							</li>
+							<li>
+								<p>
+									<a href="#">All My Deck</a>
+								</p>
+							</li>
+							<li>
+								<p>
+									<a href="#">Favourite Deck</a>
+								</p>
+							</li>
+							<li>
+								<p>
+									<a href="#">Achievements</a>
+								</p>
+							</li>
+							<li>
+								<p>
+									<a href="#">Logout</a>
+								</p>
+							</li>
 						</ul>
 						
 					</div>
